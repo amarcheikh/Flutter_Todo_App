@@ -58,7 +58,7 @@ class _MyIntroductionScreenState extends State<MyIntroductionScreen> {
         ],
         showBackButton: false,
         showNextButton: true,
-        isBottomSafeArea: true,
+        // isBottomSafeArea: true,
         showSkipButton: true,
         skip: MyTextButton(
             name: 'Skip',
