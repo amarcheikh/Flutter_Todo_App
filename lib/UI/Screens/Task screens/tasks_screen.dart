@@ -124,7 +124,7 @@ class _TasksScreenState extends State<TasksScreen> {
                     items: TaskFilter.values.map((TaskFilter filter) {
                       String filterText = '';
                       if (filter == TaskFilter.tout) {
-                        filterText = 'All Tasks';
+                        filterText = 'Tous les taches';
                       } else if (filter == TaskFilter.termine) {
                         filterText = 'Termine';
                       } else if (filter == TaskFilter.encour) {
